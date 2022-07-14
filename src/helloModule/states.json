@@ -1,0 +1,8 @@
+{
+    "hello": {
+        "url": "/AwColorPickerExample",
+        "data": {},
+        "view": "AwColorPickerExample",
+        "dependencies": []
+    }
+}

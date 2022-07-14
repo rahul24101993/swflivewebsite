@@ -1,0 +1,17 @@
+{
+    "schemaVersion": "1.0.0",
+    "lifecycleHooks": {
+        "render": "render"
+    },
+    "actions": {
+        "render": {
+            "method": "awColorPickerRenderFunction",
+            "deps": "js/AwColorPickerService"
+        }
+    },
+    "props": {
+        "selected-color": {
+            "type": "object"
+        }
+    }
+}

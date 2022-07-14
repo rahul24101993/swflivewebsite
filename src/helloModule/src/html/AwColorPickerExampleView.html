@@ -1,0 +1,24 @@
+<aw-panel>
+    <aw-panel-body class="sw-row">
+        <aw-panel-section class="h-12 w-6" caption="Left">
+            <aw-flex-row height="50f">
+                <aw-flex-column width="12">
+                    <aw-color-picker selected-color="data.selectedColorL"></aw-color-picker>
+                    <br></br>
+                    <aw-flex-row class="h-11" color="{{data.selectedColorL.value}}">
+                    </aw-flex-row>
+                </aw-flex-column>
+            </aw-flex-row>
+        </aw-panel-section>
+        <aw-panel-section class="h-12 w-6" caption="Right">
+            <aw-flex-row height="50f">
+                <aw-flex-column width="12">
+                    <aw-color-picker  selected-color="fields.selectedColorR"></aw-color-picker>
+                    <br></br>
+                    <aw-flex-row class="h-11" color="{{fields.selectedColorR.value}}">
+                    </aw-flex-row>
+                </aw-flex-column>
+            </aw-flex-row>
+        </aw-panel-section>
+    </aw-panel-body>
+</aw-panel>

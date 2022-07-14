@@ -1,0 +1,29 @@
+{
+    "name": "creatingjsxcomponent-kit",
+    "level": 6,
+    "solutionDef": {
+        "solutionId": "creatingjsxcomponent-solution",
+        "solutionName": "creatingjsxcomponent-solution",
+        "solutionVersion": "1.0",
+        "browserTitle": "creatingjsxcomponent",
+        "brandName": "Brand creatingjsxcomponent",
+        "companyName": "Siemens PLM Software",
+        "copyrightText": "Copyright © 2022 Siemens Product Lifecycle Management Software Inc.",
+        "workspaces": [
+            "newWorkspace"
+        ],
+        "authenticator": "helloAuthenticator",
+        "imageRepositoryConfiguration": {
+            "actionType": "GET",
+            "url": "{{baseUrl}}"
+        },
+        "defaultWorkspace": "newWorkspace"
+    },
+    "kitDeps": [
+        "afx"
+    ],
+    "modules": [
+        "helloModule",
+        "siteModule"
+    ]
+}

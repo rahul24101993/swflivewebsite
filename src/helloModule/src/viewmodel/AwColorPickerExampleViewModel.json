@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": {
+    "selectedColorL": {
+      "initialValues": {
+        "value": "#6c5fc8"
+      },
+      "meta": {}
+    },
+    "selectedColorR": {
+      "initialValues": {
+        "value": "#4abf8c"
+      },
+      "meta": {}
+    }
+  }
+}

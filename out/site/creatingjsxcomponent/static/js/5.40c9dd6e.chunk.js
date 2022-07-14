@@ -1,0 +1,1 @@
+(this.webpackJsonpcreatingjsxcomponent=this.webpackJsonpcreatingjsxcomponent||[]).push([[5],{371:function(e,t,s){"use strict";var n;s(54);n={retrievePropertyLabelDisplay:function(e){var t="PROPERTY_LABEL_AT_SIDE";return e&&("titled"===e.toLowerCase()?t="PROPERTY_LABEL_AT_TOP":"headless"===e.toLowerCase()&&(t="NO_PROPERTY_LABEL")),t}},t.a=n}}]);
